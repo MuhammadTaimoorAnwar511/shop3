@@ -48,6 +48,10 @@ To run this application, you have to set your own environmental variables. For s
 After you've set these environmental variables in the .env file at the root of the project, you need to navigate to the "seedDB" folder and run "node category-seed.js" and "node products-seed.js" to fill your empty MongoDB Atlas database.
 
 Now you can run "npm start" in the terminal and the application should work.
+# Command to run app
+cd bestbags-nodejs-ecommerce
+pm2 start app.js --name bestbags-app
+
 
 ## Technology
 
