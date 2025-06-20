@@ -49,8 +49,9 @@ After you've set these environmental variables in the .env file at the root of t
 
 Now you can run "npm start" in the terminal and the application should work.
 # Command to run app
-cd bestbags-nodejs-ecommerce
-pm2 start app.js --name bestbags-app
+- git clone https://github.com/MuhammadTaimoorAnwar511/shop3.git
+- cd bestbags-nodejs-ecommerce
+- pm2 start app.js --name bestbags-app
 # make sure to update stripe public key in public/javascripts/checkout.js 
 - https://dashboard.stripe.com/test/apikeys
 # Test Stripe Card
