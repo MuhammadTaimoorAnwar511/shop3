@@ -51,8 +51,16 @@ Now you can run "npm start" in the terminal and the application should work.
 # Command to run app
 cd bestbags-nodejs-ecommerce
 pm2 start app.js --name bestbags-app
-
-
+# make sure to update stripe public key in public/javascripts/checkout.js 
+- https://dashboard.stripe.com/test/apikeys
+# Test Stripe Card
+- Card Holder Name test card
+- Card number	4242 4242 4242 4242
+- Expiry	Any future date (e.g., 12/30)
+- CVC	123
+- ZIP code	14000
+# NOTE 
+in env also update GMAIL_EMAIL, GMAIL_PASSWORD get them from Nodemailer
 ## Technology
 
 The application is built with:
